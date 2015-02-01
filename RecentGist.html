@@ -1,2 +1,35 @@
 <!DOCTYPE html>
   <html>
+  
+  <head>
+    <title>Gist Viewer</title>
+  </head>
+  
+  <body>
+    <h1 align="center">Welcome to Recent Gists!</h1>
+    <div align="center">
+      <p>Gists can be thought of as snippets of code that can be easily shared between others...</p>
+      <p>This partular website will let you see the most recent Gists that have been created!</p>
+      <p>How many pages of recent Gists would you like to see?
+      <select>
+        <option value="1">One, I would choose zero but it's not an option</option>
+        <option value="2">Two, I wanna see some</option>
+        <option value="3">Three, I like looking at Gists</option>
+        <option value="4">Four, I majored in Gists</option>
+        <option value="4">Five, Gists is the reason I get up in the morning!!!</option>
+      </select>
+      </p>
+      <p>Now what programming lanuages would you like to see those Gists in?</p>
+      <form action="lanChoice">
+          <input type="checkbox" name="language" value="Python"/>Python
+          <input type="checkbox" name="language" value="JSON"/>JSON 
+          <input type="checkbox" name="language" value="Javascript"/>Javascript 
+          <input type="checkbox" name="language" value="SQL"/>SQL 
+      </form>
+      <br />
+      <br />
+      <button type="button" onclick="alert('Hello world!')">Search Gists</button>
+    </div>
+</body>
+
+</html>
